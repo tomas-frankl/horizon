@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onButton1Clicked"
+        android:text="Objects count" />
+
+    <Button
+        android:id="@+id/buttonScrollLeft"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonCancel"
+        android:onClick="onButton2Clicked"
+        android:text="Add object" />
+
+    <Button
+        android:id="@+id/buttonScrollRight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonScrollLeft"
+        android:onClick="onButton3Clicked"
+        android:text="Object list" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonScrollRight"
+        android:onClick="onButton4Clicked"
+        android:text="Compass" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button3"
+        android:onClick="onButton5Clicked"
+        android:text="Import" />
+
+    <Button
+        android:id="@+id/buttonSetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:onClick="onButton6Clicked"
+        android:text="Set location" />
+
+</RelativeLayout>

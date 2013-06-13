@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:context=".ObjectListActivity" >
+
+     <ListView android:id="@id/android:list"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="1"
+               android:drawSelectorOnTop="false" android:choiceMode="singleChoice" android:clickable="true" />
+
+     <TextView android:id="@id/android:empty"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:background="#D0D0D0"
+               android:text="No data"/>
+</LinearLayout>

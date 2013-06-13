@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemGPSMenu" android:title="GPS position">
+        <menu>
+            <item android:id="@+id/itemgpsmanual" android:title="Set manually"/>
+            <item android:id="@+id/itemgpsauto" android:title="Obtain from GPS"/>
+        </menu>
+    </item>
+    <item android:id="@+id/itemObjects" android:title="Objects">
+        <menu>
+            <item android:id="@+id/itemObjectList" android:title="List"/>
+            <item android:id="@+id/itemObjectAdd" android:title="Add..."/>
+            
+            <item android:id="@+id/itemObjectsImport" android:title="Import..."/><item android:id="@+id/itemObjectSummary" android:title="Summary" />
+        </menu>
+    </item>
+    
+
+</menu>

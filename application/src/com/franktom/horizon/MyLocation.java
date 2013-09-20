@@ -236,10 +236,7 @@ class MyLocation{
 
              System.out.println("strLocationProvider=" + strLocationProvider);
              Location location = lm.getLastKnownLocation(strLocationProvider);
-             if(location != null){
-                return location;
-             }
-             return null;
+             return location;
         } catch (Exception e) {
             e.printStackTrace();
             return null;

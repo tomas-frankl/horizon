@@ -33,7 +33,7 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/valueElevation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Description"
@@ -75,7 +75,7 @@
         android:layout_height="wrap_content" >
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/valueMaxElevation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Longitude"
@@ -96,7 +96,7 @@
         android:layout_height="wrap_content" >
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/valueHalfMaxElevation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Elevation"
@@ -148,7 +148,7 @@
             android:text="Cancel" />
 
         <Button
-            android:id="@+id/buttonOk"
+            android:id="@+id/buttonSettingsOk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

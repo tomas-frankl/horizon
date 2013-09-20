@@ -1,0 +1,2144 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" 
+creator="http://online.poi.cz">		<wpt lat="50.369766" lon="13.646454">
+			<name>Colf Club Bitozeves Bitozeves 12</name>
+			<desc>9 jamek, driving range, putting a chipping </desc>
+			<link href="http://golfbitozeves.cz/">
+				<text>http://golfbitozeves.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Bitozeves 12</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>440 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420725923022</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.242807" lon="13.355478">
+			<name>1.Cesky Golf and Country Club Krasny Dvur</name>
+			<desc>6 jamek nenormovanych</desc>
+			<link href="http://golfkd.euweb.cz/">
+				<text>http://golfkd.euweb.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Cervena Hajenka</gpxx:StreetAddress>
+						<gpxx:City>Krasny Dvur</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>439 72</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420603826847</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.995233" lon="14.201847">
+			<name>Albatross Golf Resort Vysoky Ujezd</name>
+			<desc>27 normovanych jamek</desc>
+			<link href="http://www.albatross.cz/">
+				<text>http://www.albatross.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Sokolska 162</gpxx:StreetAddress>
+						<gpxx:City>Vysoky Ujezd</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>267 16</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420311549510</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.179170" lon="12.839170">
+			<name>Astoria Golf Resort Karlovy Vary-Cihelny 7</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.astoria-golf.com/">
+				<text>http://www.astoria-golf.com/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Karlovy Vary-Cihelny 7</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>364 64</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420353972281</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.714345" lon="15.003815">
+			<name>Atrium Golf Club Trhovy Stepanov</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.atriumgolf.com/">
+				<text>http://www.atriumgolf.com/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Javorova 306</gpxx:StreetAddress>
+						<gpxx:City>Trhovy Stepanov</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>257 63</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420602345391</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.004311" lon="14.396536">
+			<name>Aurum Pacifik Golf Club Praha 5-Lahovice</name>
+			<desc>chipping, putting, driving range, indoor</desc>
+			<link href="http://www.golf-lahovice.cz/">
+				<text>http://www.golf-lahovice.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>K Sadkam 158</gpxx:StreetAddress>
+						<gpxx:City>Praha 5-Lahovice</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>159 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420725788375</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.157780" lon="16.869440">
+			<name>Austerlitz Golf Resort Slavkov u Brna</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.austerlitz-golf-resort.cz/">
+				<text>http://www.austerlitz-golf-resort.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Na golfovem hristi 1020</gpxx:StreetAddress>
+						<gpxx:City>Slavkov u Brna</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>684 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420544220806</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.258535" lon="17.801642">
+			<name>Derby Golf Club Slusovice</name>
+			<desc>9 jamek</desc>
+			<link href="http://www.dgcs.cz/">
+				<text>http://www.dgcs.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Dostihova</gpxx:StreetAddress>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>763 15</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420577981738</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.102890" lon="14.461550">
+			<name>Driving Range Rohansky ostrov Praha 8-Liben</name>
+			<desc>50 odpalist, chipping green, putting green</desc>
+			<link href="http://www.czgolf.cz/driving-range-rohansky-ostrov">
+				<text>http://www.czgolf.cz/driving-range-rohansky-ostrov</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>U libenskeho mostu 1</gpxx:StreetAddress>
+						<gpxx:City>Praha 8-Liben</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>180 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420605234000</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.066110" lon="14.411110">
+			<name>Erpet Golf Centrum Praha 5-Smichov</name>
+			<desc>indoor simulatory, treninkova plocha, driving range, putting</desc>
+			<link href="http://www.erpet.cz/">
+				<text>http://www.erpet.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Strakonicka 6/510</gpxx:StreetAddress>
+						<gpxx:City>Praha 5-Smichov</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>150 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420257321229</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.090466" lon="14.659882">
+			<name>Forest Golf Club Klanovice Praha 9-Klanovice</name>
+			<desc>driving range, chipping, putting</desc>
+			<link href="http://www.forestgolf.cz/">
+				<text>http://www.forestgolf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Axmanova 260</gpxx:StreetAddress>
+						<gpxx:City>Praha 9-Klanovice</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>19014</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420281962100</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.026200" lon="14.402072">
+			<name>Golf and Country Club Hodkovicky Praha 4-Hodkovicky</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.hodkovicky.cz/">
+				<text>http://www.hodkovicky.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Vltavanu 982</gpxx:StreetAddress>
+						<gpxx:City>Praha 4-Hodkovicky</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>147 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420777006649</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.144139" lon="14.693076">
+			<name>Golf and Country Club Mstetice Mstetice 5</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.gccm.cz/">
+				<text>http://www.gccm.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Mstetice 5</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>250 91</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420326997190</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.567943" lon="15.679274">
+			<name>Golf and Country Club Prosecne Prosecne 63</name>
+			<desc>9 jamek, driving range, chipping, putting</desc>
+			<link href="http://www.gccprosecne.cz/">
+				<text>http://www.gccprosecne.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Prosecne 63</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>543 73</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420605849327</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.772242" lon="15.831821">
+			<name>Golf and Country Club Svobodne Hamry</name>
+			<desc>9 normovanych jamek, driving range</desc>
+			<link href="http://www.gccsh.cz/">
+				<text>http://www.gccsh.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Svobodne Hamry</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>539 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420469333324</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.106429" lon="14.439410">
+			<name>Golf Arena Praha 7-Holesovice</name>
+			<desc>po-pa 7-21, so-ne,svatky 8-21, driving, putting, chipping</desc>
+			<link href="http://www.golfarenapraha.cz/">
+				<text>http://www.golfarenapraha.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Zeleznicaru 6</gpxx:StreetAddress>
+						<gpxx:City>Praha 7-Holesovice</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>170 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420734312000</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.270792" lon="14.125573">
+			<name>Golf Berovice Berovice 15</name>
+			<desc>9 a 18 normovanych jamek</desc>
+			<link href="http://www.gcbr.cz/">
+				<text>http://www.gcbr.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Berovice 15</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>273 71</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420312591112</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.080515" lon="14.080685">
+			<name>Golf Club Botanika Horni Bezdekov 68</name>
+			<desc>9 jamek, driving range</desc>
+			<link href="http://www.golfbotanika.cz/">
+				<text>http://www.golfbotanika.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Horni Bezdekov 68</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>273 51</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420604938525</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.095830" lon="14.468890">
+			<name>Golf Club Cechie Praha 8-Karlin</name>
+			<desc>5 simulatoru full, driving range, venkovni cvicne plochy</desc>
+			<link href="http://www.gkc.cz/">
+				<text>http://www.gkc.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>U Sluncove 25/618</gpxx:StreetAddress>
+						<gpxx:City>Praha 8-Karlin</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>186 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420266194267</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.525560" lon="14.521110">
+			<name>Golf Club Certovo Bremeno Alenina Lhota 5</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.cebr.cz/">
+				<text>http://www.cebr.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Alenina Lhota 5</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>391 33</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420381273190</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.842061" lon="14.880624">
+			<name>Golf Club Grabstejn</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.gcg.cz/">
+				<text>http://www.gcg.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Grabstejn</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>463 31</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420607932216</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.184136" lon="12.883514">
+			<name>Golf Club Haje Kolova-Haje 60</name>
+			<desc>9 jamek</desc>
+			<link href="http://www.golfhaje.com/">
+				<text>http://www.golfhaje.com/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Kolova-Haje 60</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>360 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420721157534</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.056670" lon="14.432780">
+			<name>Golf Club Hluboka nad Vltavou</name>
+			<desc>18 9 normovanych jamek</desc>
+			<link href="http://www.golfhluboka.cz/">
+				<text>http://www.golfhluboka.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>namesti CSLA 26</gpxx:StreetAddress>
+						<gpxx:City>Hluboka nad Vltavou</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>373 41</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420776826376</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.376747" lon="18.392221">
+			<name>Golf Club Horal Velke Karlovice 583</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.golfclubhoral.cz/">
+				<text>http://www.golfclubhoral.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Velke Karlovice 583</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>756 06</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420571495583</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.613166" lon="13.653007">
+			<name>Golf Club Horehledy  Horehledy 69</name>
+			<desc>9 jamek, driving range, putting, chipping</desc>
+			<link href="http://cz.golf-horehledy.cz/">
+				<text>http://cz.golf-horehledy.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Horehledy 69</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>335 61</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420606793476</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.047794" lon="14.551508">
+			<name>Golf Club Hostivar  Praha 10-Hostivar</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.golfhostivar.cz/">
+				<text>http://www.golfhostivar.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Hornomecholupska 565</gpxx:StreetAddress>
+						<gpxx:City>Praha 10-Hostivar</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>109 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420724124818</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.223760" lon="15.667960">
+			<name>Golf Club Hradec Kralove Hradek u Nechanic</name>
+			<desc>9 normovanych jamek, drivibg, putting, chipping</desc>
+			<link href="http://www.golfhradek.cz/">
+				<text>http://www.golfhradek.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Hradek u Nechanic</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>503 15</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420605364688</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.035391" lon="14.447345">
+			<name>Golf Club Chateau St.Havel Praha 4-Krc</name>
+			<desc>Driving range, putting, chipping</desc>
+			<link href="http://www.chateaugolf.cz/">
+				<text>http://www.chateaugolf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Pred nadrazim 6</gpxx:StreetAddress>
+						<gpxx:City>Praha 4-Krc</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>140 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420241445717</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.966374" lon="12.885197">
+			<name>Golf Club Klaster Tepla Klaster Tepla 13</name>
+			<desc>9 jamek</desc>
+			<link href="http://www.golftepla.cz/">
+				<text>http://www.golftepla.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Klaster Tepla 13</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>364 61</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420602781756</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.003541" lon="12.609604">
+			<name>Golf Club Kynzvart Lazne Kynzvart</name>
+			<desc>18 normovanych jamek, driving range, putting, chipping</desc>
+			<link href="http://www.golfkynzvart.cz/">
+				<text>http://www.golfkynzvart.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Zamek 1</gpxx:StreetAddress>
+						<gpxx:City>Lazne Kynzvart</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>354 91</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420733612901</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.253890" lon="17.699440">
+			<name>Golf Club Lazne Kostelec  Zlin-Kostelec</name>
+			<desc>9 jamek, driving range, chippiing, putting</desc>
+			<link href="http://www.gclk.cz/">
+				<text>http://www.gclk.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Lazenska 493</gpxx:StreetAddress>
+						<gpxx:City> Zlin-Kostelec</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>763 14</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420577152111</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.789170" lon="15.015280">
+			<name>Golf Club Liberec</name>
+			<desc>18 normovanych jamek, akademie, putting</desc>
+			<link href="http://www.gc-liberec.cz/">
+				<text>http://www.gc-liberec.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Hermankova 420</gpxx:StreetAddress>
+						<gpxx:City>Liberec</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>460 14</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420602282208</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.756113" lon="14.036675">
+			<name>Golf Club Libouchec</name>
+			<desc>9 jamek, driving range, putting, chipping</desc>
+			<link href="http://www.gclibouchec.cz/">
+				<text>http://www.gclibouchec.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Teplicka 274</gpxx:StreetAddress>
+						<gpxx:City>Libouchec</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>403 35</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420475222223</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.477342" lon="13.649198">
+			<name>1.Golf Club Most</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.golfmost.cz/">
+				<text>http://www.golfmost.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Skyricka 44</gpxx:StreetAddress>
+						<gpxx:City>Most</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>434 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420604267386</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.236190" lon="15.992230">
+			<name>Golf Club Na Vrsich Jenikovice 153</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.gcnavrsich.cz/">
+				<text>http://www.gcnavrsich.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Jenikovice 153</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>503 46</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420776037628</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.665885" lon="17.358431">
+			<name>Golf Club Olomouc Dolany–Veska 40</name>
+			<desc>18 normovanych jamek, 9 jamek Akademie, driving range, chipping, putting</desc>
+			<link href="http://www.golf-olomouc.cz/">
+				<text>http://www.golf-olomouc.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Dolany–Veska 40</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>783 16</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420585397278</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.090439" lon="15.692833">
+			<name>Golf Club Pardubice Lazne Bohdanec</name>
+			<desc>9 jamek, driving range</desc>
+			<link href="http://www.gcpa.cz/">
+				<text>http://www.gcpa.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Lazne Bohdanec</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>533 41</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420602617717</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.138052" lon="15.143867">
+			<name>Golf Club Podebrady</name>
+			<desc>18 normovanych jamek, driving range</desc>
+			<link href="http://www.golfpodebrady.cz/">
+				<text>http://www.golfpodebrady.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Na Zalesi 530</gpxx:StreetAddress>
+						<gpxx:City>Podebrady</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>290 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420605509278</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.061770" lon="14.338590">
+			<name>Golf Club Praha Praha 5-Motol</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.gcp.cz/">
+				<text>http://www.gcp.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Plzenska 401/2</gpxx:StreetAddress>
+						<gpxx:City>Praha 5-Motol</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>150 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420257216584</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.597923" lon="17.661660">
+			<name>Golf club Radikov</name>
+			<desc>9 jamek, driving range, verejne hriste</desc>
+			<link href="http://www.golf-radikov.cz/">
+				<text>http://www.golf-radikov.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Radikov</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>753 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420732779664</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.805697" lon="14.406590">
+			<name>Golf Park Slapy sv. Jan</name>
+			<desc>2x 9 jamek, driving range, putting a chipping </desc>
+			<link href="http://www.golfslapy.cz/">
+				<text>http://www.golfslapy.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Slapy</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>252 08</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420773161742</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.208914" lon="14.656973">
+			<name>Golf Club Stara Boleslav</name>
+			<desc>9 jamek, driving range</desc>
+			<link href="http://www.gcsb.cz/">
+				<text>http://www.gcsb.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Pruhon 64</gpxx:StreetAddress>
+						<gpxx:City>Stara Boleslav</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>250 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420724158842</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.713880" lon="16.050340">
+			<name>Golf Club Svratka 1932</name>
+			<desc>9 jamek, driving range, akademie</desc>
+			<link href="http://www.gcsvr1932.cz/">
+				<text>http://www.gcsvr1932.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Na Vyhlidce</gpxx:StreetAddress>
+						<gpxx:City>Svratka</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>592 02</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420541211503</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.915760" lon="14.601000">
+			<name>Golf Club Stirin</name>
+			<desc>9 jamek</desc>
+			<link href="http://www.golf-stirin.cz/">
+				<text>http://www.golf-stirin.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Ringhofferova 711</gpxx:StreetAddress>
+						<gpxx:City>Stirin</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>251 68</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420323673595</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.728064" lon="13.753389">
+			<name>Golf Club Teplice Cinovec 275</name>
+			<desc>9 jamek</desc>
+			<link href="http://www.golf-teplice.cz/">
+				<text>http://www.golf-teplice.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Cinovec 275</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>417 32</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420777820971</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.011333" lon="17.437801">
+			<name>Golf Resort Jezera Ostrozska Nova Ves</name>
+			<desc>9 jamek, driving range, chipping, putting</desc>
+			<link href="http://www.gcuh.cz/">
+				<text>http://www.gcuh.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Nadrazni</gpxx:StreetAddress>
+						<gpxx:City>Ostrozska Nova Ves</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>687 22</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420572555111</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.214116" lon="14.508817">
+			<name>Golf Club Zlonin Zlonin 142</name>
+			<desc>driving range(70 a 200 m), a male golfove hriste(6 jamek), zatim pro cleny a po telefonicke domluve</desc>
+			<link href="http://www.golfzlonin.cz/">
+				<text>http://www.golfzlonin.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Zlonin 142</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>250 64</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420731589638</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.098526" lon="14.340676">
+			<name>Golf Driving Range Divoka Sarka Praha 6-Vokovice</name>
+			<desc>driving range, chipping, putting</desc>
+			<link href="http://www.drds.cz/">
+				<text>http://www.drds.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Nad Lavkou 5</gpxx:StreetAddress>
+						<gpxx:City>Praha 6-Vokovice</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>160 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420774203730</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.433974" lon="15.381181">
+			<name>Golf Driving Range Jicin</name>
+			<desc>driving range, chipping, putting</desc>
+			<link href="http://www.golfjicin.cz/">
+				<text>http://www.golfjicin.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Hradecka 816</gpxx:StreetAddress>
+						<gpxx:City>Jicin</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>506 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420724010002</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.482702" lon="15.168031">
+			<name>Golf Driving Range Sobotka</name>
+			<desc>driving range</desc>
+			<link href="http://www.hotelort.cz/">
+				<text>http://www.hotelort.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Neprivec 18</gpxx:StreetAddress>
+						<gpxx:City>Sobotka</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>506 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420493571137</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.684721" lon="13.030029">
+			<name>Golf Club Alfredov Kostelec 96</name>
+			<desc>18 normovanych jamek, driving range</desc>
+			<link href="http://www.gcal.cz/">
+				<text>http://www.gcal.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Kostelec 96</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>349 62</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420724367708</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.052014" lon="13.447103">
+			<name>Golf Park Podboranky Podboranky 17</name>
+			<desc>9 jamek</desc>
+			<link href="http://www.golfpark.cz/">
+				<text>http://www.golfpark.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Podboranky 17</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>270 33</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420313599275</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.772500" lon="15.430000">
+			<name>Golf Club Harrachov Harrachov 640</name>
+			<desc>9 jamek, nejvyse polozene hriste v Cechach</desc>
+			<link href="http://www.golf-harrachov.cz/">
+				<text>http://www.golf-harrachov.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Harrachov 640</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>512 46</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420481529065</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.106496" lon="14.440402">
+			<name>Golf Indoor Mr. Caddy Praha 7-Holesovice</name>
+			<desc>3D simulatory, dve rohoze driving do site, putting green</desc>
+			<link href="http://www.mrcaddy.cz/">
+				<text>http://www.mrcaddy.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Zeleznicaru 6</gpxx:StreetAddress>
+						<gpxx:City>Praha 7-Holesovice</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>170 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420725437621</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.857500" lon="14.266940">
+			<name>Golf Janov Ceske Svycarsko Janov 233</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.golfjanov.cz/">
+				<text>http://www.golfjanov.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Janov 233</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>407 14</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420602445651</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.707780" lon="14.972220">
+			<name>Golf Club Jested  Rozstani 5</name>
+			<desc>9 jamek</desc>
+			<link href="http://www.golfjested.cz/cz">
+				<text>http://www.golfjested.cz/cz</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Rozstani 5</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>463 43</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420485179420</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.149110" lon="14.091765">
+			<name>Golf Kladno</name>
+			<desc>8-22, golfovy simulator (fullswing)</desc>
+			<link href="http://www.golfkladno.cz/">
+				<text>http://www.golfkladno.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>A. Sucheho 2310</gpxx:StreetAddress>
+						<gpxx:City>Kladno</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>272 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420739516092</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.832620" lon="13.525330">
+			<name>Golf Resort Darovansky dvur Brasy-Darova 3</name>
+			<desc>27 normovanych jamek</desc>
+			<link href="http://www.darovanskydvur.cz/">
+				<text>http://www.darovanskydvur.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Brasy-Darova 3</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>338 24</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420371205375</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.407256" lon="12.925354">
+			<name>Golf Klub Klinovec and Fichtelberg Bozi Dar</name>
+			<desc>9 jamek, driving range</desc>
+			<link href="http://www.gckf.eu/">
+				<text>http://www.gckf.eu/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Bozi Dar</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>363 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420774713413</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.997284" lon="14.958896">
+			<name>Golf klub Molitorov Molitorov 37</name>
+			<desc>18 normovanych jamek, driving range, putting</desc>
+			<link href="http://www.golfmolitorov.cz/">
+				<text>http://www.golfmolitorov.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Molitorov 37</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>281 61</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420773600001</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.848650" lon="18.516640">
+			<name>Golf Resort Lipiny Karvina</name>
+			<desc>18 normovanych jamek, denne 8-20</desc>
+			<link href="http://www.golflipiny.cz/">
+				<text>http://www.golflipiny.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Ostravska 2066/31</gpxx:StreetAddress>
+						<gpxx:City>Karvina</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>733 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420725044292</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="48.644622" lon="14.214417">
+			<name>Golf Club Lipno nad Vltavou Lipno nad Vltavou 35</name>
+			<desc>9 jamek, driving range</desc>
+			<link href="http://www.lipnogolf.cz/">
+				<text>http://www.lipnogolf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Lipno nad Vltavou 35</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>382 78</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420380736035</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.262992" lon="12.387844">
+			<name>Golf Club Luby Horni Luby 25</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.golfluby.cz/">
+				<text>http://www.golfluby.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Horni Luby 25</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>351 34</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420721313075</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.198415" lon="14.524320">
+			<name>Golf Mesice</name>
+			<desc>driving range</desc>
+			<link href="http://www.golfmesice.cz/">
+				<text>http://www.golfmesice.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Skolska 20</gpxx:StreetAddress>
+						<gpxx:City>Mesice</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>250 64</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420723719862</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.434410" lon="14.887790">
+			<name>Golf Club Mlada Boleslav Michalovice 72</name>
+			<desc>18 jamek</desc>
+			<link href="http://www.golfmladaboleslav.cz/">
+				<text>http://www.golfmladaboleslav.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Michalovice 72</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>293 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420739456992</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.772149" lon="13.505733">
+			<name>Golf Park Plzen Dysina</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.golfplzen.cz/cs/">
+				<text>http://www.golfplzen.cz/cs/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Horomyslicka 1</gpxx:StreetAddress>
+						<gpxx:City>Dysina</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>330 02</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420373729961</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.638608" lon="13.746814">
+			<name>Golf Resort Barbora Oldrichov u Duchcova</name>
+			<desc>9 normovanych jamek, driving range, putting</desc>
+			<link href="http://www.golfbarbora.cz/">
+				<text>http://www.golfbarbora.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Oldrichov u Duchcova</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>417 24</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420721005496</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.290633" lon="14.562420">
+			<name>Golf Resort Bechyne Sudomerice u Bechyne 43</name>
+			<desc>9 jamek, driving range, putting</desc>
+			<link href="http://www.golf-bechyne.cz/">
+				<text>http://www.golf-bechyne.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Sudomerice u Bechyne 43</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>391 65</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420381211123</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.270694" lon="14.874228">
+			<name>Golf Resort Benatky nad Jizerou</name>
+			<desc>18 normovanych jamek, 9 jamek akademie, driving range, chipping</desc>
+			<link href="http://www.czgolf.cz/golf-resort-benatky-nad-jizerou">
+				<text>http://www.czgolf.cz/golf-resort-benatky-nad-jizerou</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Na Golfu 1003</gpxx:StreetAddress>
+						<gpxx:City>Benatky nad Jizerou</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>294 71</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420326313000</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.977641" lon="14.085423">
+			<name>Golf Resort Beroun Beroun-Zavodi</name>
+			<desc>18 jamek, driving range, chipping, putting</desc>
+			<link href="http://www.golfberoun.cz/">
+				<text>http://www.golfberoun.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Na Veselou 909</gpxx:StreetAddress>
+						<gpxx:City>Beroun-Zavodi</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>266 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420606506326</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.092641" lon="14.588256">
+			<name>Golf Resort Black Bridge Praha 9-Dolni Pocernice</name>
+			<desc>18 jamek, driving range</desc>
+			<link href="http://www.grcm.cz/">
+				<text>http://www.grcm.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Narodnich Hrdinu</gpxx:StreetAddress>
+						<gpxx:City>Praha 9-Dolni Pocernice</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>190 12</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420246067800</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.206034" lon="16.453331">
+			<name>Golf Resort Brno</name>
+			<desc>9 jamek, driving range, puttig, chipping</desc>
+			<link href="http://www.grb.cz/">
+				<text>http://www.grb.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Ostrovacicka 63</gpxx:StreetAddress>
+						<gpxx:City>Brno</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>641 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420546216462</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.911428" lon="15.195044">
+			<name>Golf Resort Casa Serena Roztez</name>
+			<desc>pouze privatni a turnajove hriste, 18 normovanych jamek</desc>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Roztez</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>285 41</gpxx:PostalCode>
+					</gpxx:Address>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.832650" lon="13.526230">
+			<name>Golf Resort Darovansky Dvur Darova 3</name>
+			<desc>27 normovanych jamek</desc>
+			<link href="http://www.darova.cz/">
+				<text>http://www.darova.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Darova 3</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>338 24</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420371740716</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.166351" lon="12.277290">
+			<name>Golf Resort Frantiskovy Lazne Hazlov-Ovcin</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.gr-fl.cz/">
+				<text>http://www.gr-fl.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Hazlov-Ovcin</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>351 32</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420354595402</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.213619" lon="12.929636">
+			<name>Golf Resort Karlovy Vary</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.golfresort.cz/">
+				<text>http://www.golfresort.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Prazska 219</gpxx:StreetAddress>
+						<gpxx:City>Karlovy Vary</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>360 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420353331101</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.919894" lon="14.173875">
+			<name>Golf Resort Karlstejn Liten-Belec 280</name>
+			<desc>27 normovanych jamek</desc>
+			<link href="http://www.karlstejn-golf.cz/">
+				<text>http://www.karlstejn-golf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Liten-Belec 280</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>267 27</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420602248424</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.750197" lon="14.630646">
+			<name>Golf Resort Konopiste Benesov</name>
+			<desc>45 normovanych jamek, driving range, chipping</desc>
+			<link href="http://www.gcko.cz/">
+				<text>http://www.gcko.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Tvorsovice 27</gpxx:StreetAddress>
+						<gpxx:City>Benesov</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>256 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420317784044</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.111323" lon="15.819793">
+			<name>Golf Resort Kuneticka Hora Dritec 155</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.gckh.cz/">
+				<text>http://www.gckh.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Dritec 155</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>533 05</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420602519039</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.012654" lon="15.091437">
+			<name>Golf Resort Monachus Nova Bystrice 811</name>
+			<desc>18 normovanych jamek a 9 jamek verejne hriste</desc>
+			<link href="http://www.golfmonachus.cz/">
+				<text>http://www.golfmonachus.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Nova Bystrice 811</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>378 33</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420602130905</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.380048" lon="15.861076">
+			<name>Golf Resort Nova Amerika Zalonov 45</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.novagolf.cz/">
+				<text>http://www.novagolf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Zalonov 45</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>551 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420499694320</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.550349" lon="18.362381">
+			<name>Golf Resort Ostravice Ostravice 75</name>
+			<desc>18 normovanych jamek, driving range, putting</desc>
+			<link href="http://www.ostravice-golf.cz/">
+				<text>http://www.ostravice-golf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Ostravice 75</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>739 14</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420724907913</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.272380" lon="14.077950">
+			<name>Golf Resort Pisek Kestrany 70</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.czgolf.cz/golf-resort-pisek">
+				<text>http://www.czgolf.cz/golf-resort-pisek</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Kestrany 70</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>398 21</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420724576976</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.506942" lon="17.061581">
+			<name>Golf Resort Prostejov Kostelec na Hane</name>
+			<desc>driving, chipping, pitching, putting</desc>
+			<link href="http://www.golfprostejov.cz/">
+				<text>http://www.golfprostejov.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Legionarska</gpxx:StreetAddress>
+						<gpxx:City>Kostelec na Hane</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>798 41</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420582330682</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.211656" lon="15.422883">
+			<name>Golf Resort Telc Vanov</name>
+			<desc>18 jamek, driving range</desc>
+			<link href="http://www.czgolf.cz/golf-resort-telc">
+				<text>http://www.czgolf.cz/golf-resort-telc</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Vanov 21</gpxx:StreetAddress>
+						<gpxx:City>Vanov</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>588 56</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420724322763</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.699710" lon="13.991650">
+			<name>Golf Resort Usti nad Labem Vseborice-Podhori 380/80</name>
+			<desc>18 jamek, driving range</desc>
+			<link href="http://www.czgolf.cz/golf-resort-usti-nad-labem">
+				<text>http://www.czgolf.cz/golf-resort-usti-nad-labem</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Vseborice-Podhori 380/80</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>400 10</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420721853967</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.704192" lon="18.596128">
+			<name>Beskydska Golfova a.s. Ropice 415</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.beskydgolf.com/">
+				<text>http://www.beskydgolf.com/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Ropice 415</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>739 56</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420737208892</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.599356" lon="15.357238">
+			<name>Golf Club Semily</name>
+			<desc>9 jamek, driving range</desc>
+			<link href="http://www.golf-semily.cz/">
+				<text>http://www.golf-semily.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>3. kvetna</gpxx:StreetAddress>
+						<gpxx:City>Semily</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>513 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420775852720</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.173411" lon="14.339864">
+			<name>Golf Snail Driving range Uholicky</name>
+			<desc>400m driving range, chipping, putting</desc>
+			<link href="http://www.golfsnail.cz/">
+				<text>http://www.golfsnail.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Uholicky</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>25264</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420608509577</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.159650" lon="12.665778">
+			<name>Golf Club Sokolov Dolni Rychnov</name>
+			<link href="http://www.golf-sokolov.cz/">
+				<text>http://www.golf-sokolov.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Ke Golfu 445</gpxx:StreetAddress>
+						<gpxx:City>Dolni Rychnov</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>356 04</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420724602475</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.101327" lon="14.483516">
+			<name>Golf Sportcentrum Step Praha 9-Vysocany</name>
+			<desc>9 simulatoru, jeden trojrozmerny, putting green</desc>
+			<link href="http://www.sportcentrumstep.cz/">
+				<text>http://www.sportcentrumstep.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Malletova 6</gpxx:StreetAddress>
+						<gpxx:City>Praha 9-Vysocany</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>190 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420296786172</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.102301" lon="14.460377">
+			<name>Golf Yacht Prague Praha 8-Liben</name>
+			<desc>3 spickove simulatory s analyzatorem svihu, 6 odpalist na palube na driving range</desc>
+			<link href="http://www.golfyacht.cz/">
+				<text>http://www.golfyacht.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>U libenskeho mostu 1</gpxx:StreetAddress>
+						<gpxx:City>Praha 8-Liben</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>180 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420220972359</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.222934" lon="14.474724">
+			<name>Golf Yard Resort Predboj</name>
+			<desc>driving range, chipping, putting</desc>
+			<link href="http://www.yardresort.com/">
+				<text>http://www.yardresort.com/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Ke Tvrzi 7</gpxx:StreetAddress>
+						<gpxx:City>Predboj</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>250 72</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420315639613</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.774280" lon="15.069120">
+			<name>Golfcentrum Liberec</name>
+			<desc>5 simulatoru driving range, chipping a putting greenu</desc>
+			<link href="http://www.golfcentrumliberec.cz/">
+				<text>http://www.golfcentrumliberec.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Masarykova 1320</gpxx:StreetAddress>
+						<gpxx:City>Liberec</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>460 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420485104824</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.894123" lon="14.327652">
+			<name>Golfovy Klub Lisnice</name>
+			<desc>9 normovanych jamek, driving range</desc>
+			<link href="http://www.gkl.cz/">
+				<text>http://www.gkl.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Lisnice</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>252 10</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420318599151</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.599838" lon="15.832962">
+			<name>Grund Resort Golf and Ski Mlade Buky 445</name>
+			<desc>18 normovanych jamek, cvicnych 6 jamek, chipping, putting</desc>
+			<link href="http://www.grundresort.cz/">
+				<text>http://www.grundresort.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Mlade Buky 445</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>542 43</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420604273293</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.278738" lon="16.530580">
+			<name>Kaskada Golf Course Brno Kurim</name>
+			<desc>27 jamek, akademie, driving range</desc>
+			<link href="http://www.golfbrno.cz/">
+				<text>http://www.golfbrno.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Na Golfu 1772</gpxx:StreetAddress>
+						<gpxx:City>Kurim</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>664 34</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420607113217</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.529550" lon="16.765110">
+			<name>Korenec Golf and Ski Resort Korenec 174</name>
+			<desc>18 normovanych jamek, driving range</desc>
+			<link href="http://www.korenec-golf.cz/">
+				<text>http://www.korenec-golf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Korenec 174</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>680 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420516467504</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.799539" lon="14.713133">
+			<name>Kralovsky Golf Club Malevil Hermanice v Pojestedi 280</name>
+			<desc>18 jamek</desc>
+			<link href="http://www.malevil.cz/">
+				<text>http://www.malevil.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Hermanice v Pojestedi 280</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>471 25</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420487762107</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.867036" lon="14.672756">
+			<name>Loreta Golf Club Pysely</name>
+			<desc>18 normovanych jamek, driving</desc>
+			<link href="http://www.loretagolf.cz/">
+				<text>http://www.loretagolf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Pysely</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>251 67</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420777345913</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.519090" lon="14.137870">
+			<name>Maria Theresia Golf Club Terezin</name>
+			<desc>9 normovanych jamek</desc>
+			<link href="http://www.mtgc.cz/web/">
+				<text>http://www.mtgc.cz/web/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Litomericka kotlina 386</gpxx:StreetAddress>
+						<gpxx:City>Terezin</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>411 55</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420608400377</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.927310" lon="18.274250">
+			<name>Park Golf Club Ostrava Silherovice</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.golf-ostrava.cz/">
+				<text>http://www.golf-ostrava.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Dolni 412</gpxx:StreetAddress>
+						<gpxx:City>Silherovice</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>747 15</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420595054144</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.175470" lon="15.827340">
+			<name>Park Golf Club Hradec Kralove</name>
+			<desc>6 normovanych jamek, verejne hriste, golfova skola</desc>
+			<link href="http://www.parkgolf.cz/">
+				<text>http://www.parkgolf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Pod Lesem 38</gpxx:StreetAddress>
+						<gpxx:City>Hradec Kralove</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>500 02</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420723848039</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.969680" lon="14.373793">
+			<name>Prague City Golf Club Praha 5-Radotin</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.praguecitygolf.cz/">
+				<text>http://www.praguecitygolf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>K Radotinu 15</gpxx:StreetAddress>
+						<gpxx:City>Praha 5-Radotin</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>156 00</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420257217733</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.530700" lon="18.326900">
+			<name>Prosper Golf Club Celadna 741</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.prosper-golf.cz/">
+				<text>http://www.prosper-golf.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Celadna 741</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>739 12</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420603166697</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.312314" lon="15.560761">
+			<name>Queens Park Golf Club Mysteves Mysteves 105</name>
+			<desc>27 normovanych jamek</desc>
+			<link href="http://www.golf-mysteves.cz/">
+				<text>http://www.golf-mysteves.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Mysteves 105</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>503 15</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420603349466</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.979510" lon="12.736220">
+			<name>Royal Golf Club Marianske Lazne Marianske Lazne 582</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.golfml.cz/">
+				<text>http://www.golfml.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:City>Marianske Lazne 582</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>353 01</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420354624300</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.466617" lon="18.173644">
+			<name>Valassky Golfovy klub  Roznov pod Radhostem</name>
+			<desc>9 normovanych jamek, cvicna louka</desc>
+			<link href="http://www.golf-roznov.cz/">
+				<text>http://www.golf-roznov.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Horni Paseky 2664</gpxx:StreetAddress>
+						<gpxx:City>Roznov pod Radhostem</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>756 61</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420571625772</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="50.817500" lon="15.066108">
+			<name>Ypsilon Golf Resort Liberec Fojtka</name>
+			<desc>18 normovanych jamek</desc>
+			<link href="http://www.ygolf.cz/cz/">
+				<text>http://www.ygolf.cz/cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Ke klubu 17</gpxx:StreetAddress>
+						<gpxx:City>Fojtka</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>463 22</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420731547847</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+		<wpt lat="49.929817" lon="17.999747">
+			<name>Silesia Golf Resort Kravare</name>
+			<desc>9 jamek</desc>
+			<link href="http://www.golfkravare.cz/">
+				<text>http://www.golfkravare.cz/</text>
+			</link>
+			<sym>Waypoint</sym>
+			<extensions>
+				<gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+					<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+					<gpxx:Address>
+						<gpxx:StreetAddress>Alejni 24/377</gpxx:StreetAddress>
+						<gpxx:City>Kravare</gpxx:City>
+						<gpxx:Country>CZE</gpxx:Country>
+						<gpxx:PostalCode>747 21</gpxx:PostalCode>
+					</gpxx:Address>
+					<gpxx:PhoneNumber>+420553673202</gpxx:PhoneNumber>
+				</gpxx:WaypointExtension>
+			</extensions>
+		</wpt>
+</gpx>

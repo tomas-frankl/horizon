@@ -15,7 +15,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 //import android.content.IntentFilter.AuthorityEntry;
 import android.database.Cursor;
-import android.support.v4.widget.SimpleCursorAdapter;
 import android.text.Editable;
 import android.text.InputType;
 import android.util.Log;

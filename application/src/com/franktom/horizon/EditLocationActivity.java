@@ -28,13 +28,13 @@ public class EditLocationActivity extends Activity {
 
     private static final String[] PROJECTION =
             new String[] {
-                "_id",
-                "NAME",
-                "DESCRIPTION",
-                "LATITUDE",
-                "LONGITUDE",
-                "ELEVATION",
-                "TYPE"
+                "locations._id",
+                "locations.NAME",
+                "locations.DESCRIPTION",
+                "locations.LATITUDE",
+                "locations.LONGITUDE",
+                "locations.ELEVATION",
+                "locations.TYPE"
         };
 
     @Override

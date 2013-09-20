@@ -2,7 +2,10 @@ package com.franktom.horizon;
 
 import android.content.Context;
 import android.hardware.Camera;
+import android.hardware.Camera.AutoFocusCallback;
 import android.hardware.Camera.PreviewCallback;
+import android.hardware.Camera.Size;
+import android.os.Handler;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
@@ -14,6 +17,7 @@ class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
 
     SurfaceHolder mHolder;
     public Camera camera;
+    private Handler autoFocusHandler;
 
     CameraPreview(Context context) {
         super(context);
@@ -25,6 +29,22 @@ class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
         mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 
         camera = Camera.open();
+
+        autoFocusHandler = new Handler();
+    }
+
+    public void pause() {
+        //autoFocusHandler.post(doAutoFocusAndStop);
+        camera.stopPreview();
+    }
+
+    public void resume() {
+        camera.startPreview();
+        autoFocusHandler.postDelayed(doAutoFocus, 500);
+    }
+
+    public void focus() {
+        autoFocusHandler.postDelayed(doAutoFocus, 500);
     }
 
     public void initCamera() {
@@ -40,6 +60,8 @@ class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
                     CameraPreview.this.invalidate();
                 }
             });
+            //camera.autoFocus(autoFocusCB);
+            //autoFocusHandler.postDelayed(doAutoFocus, 1000);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -60,17 +82,71 @@ class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
         camera = null;
     }
 
+    private Size getOptimalPreviewSize(List<Size> sizes, int w, int h) {
+        final double ASPECT_TOLERANCE = 0.1;
+        double targetRatio = (double) w / h;
+        if (sizes == null)
+            return null;
+
+        Size optimalSize = null;
+        double minDiff = Double.MAX_VALUE;
+
+        int targetHeight = h;
+
+        // Try to find an size match aspect ratio and size
+        for (Size size : sizes) {
+            double ratio = (double) size.width / size.height;
+            if (Math.abs(ratio - targetRatio) > ASPECT_TOLERANCE)
+                continue;
+            if (Math.abs(size.height - targetHeight) < minDiff) {
+                optimalSize = size;
+                minDiff = Math.abs(size.height - targetHeight);
+            }
+        }
+
+        // Cannot find the one match the aspect ratio, ignore the requirement
+        if (optimalSize == null) {
+            minDiff = Double.MAX_VALUE;
+            for (Size size : sizes) {
+                if (Math.abs(size.height - targetHeight) < minDiff) {
+                    optimalSize = size;
+                    minDiff = Math.abs(size.height - targetHeight);
+                }
+            }
+        }
+
+        return optimalSize;
+    }
+
     public void surfaceChanged(SurfaceHolder holder, int format, int w, int h) {
         // Now that the size is known, set up the camera parameters and begin
         // the preview.
         Camera.Parameters parameters = camera.getParameters();
         List<Camera.Size> previewSizes = parameters.getSupportedPreviewSizes();
+        parameters.setExposureCompensation(parameters.getMinExposureCompensation()/3);
+        Camera.Size selected = getOptimalPreviewSize(previewSizes, w, h);
+        parameters.setPreviewSize(selected.width, selected.height);
 
-        Camera.Size previewSize = previewSizes.get(0);
-        parameters.setPreviewSize(previewSize.width, previewSize.height);
-        //parameters.setPreviewSize(w, h);
         camera.setParameters(parameters);
-        //camera.setDisplayOrientation(90);
+
+
         camera.startPreview();
     }
+
+    AutoFocusCallback autoFocusCB = new AutoFocusCallback() {
+        public void onAutoFocus(boolean success, Camera camera) {
+            //autoFocusHandler.postDelayed(doAutoFocus, 1000);
+        }
+    };
+
+    private Runnable doAutoFocus = new Runnable() {
+        public void run() {
+            try {
+                    camera.autoFocus(autoFocusCB);
+            } catch (RuntimeException e) {
+                //e.printStackTrace();
+            }
+        }
+    };
+
 }

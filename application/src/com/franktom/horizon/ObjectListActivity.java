@@ -9,7 +9,6 @@ import android.content.ContentUris;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
-import android.support.v4.widget.SimpleCursorAdapter;
 import android.text.Editable;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -21,9 +20,9 @@ import android.widget.ListView;
 public class ObjectListActivity extends ListActivity {
 
     private static final String[] PROJECTION = new String[] {
-        "NAME",
-        "DESCRIPTION",
-        "_id",
+        "locations.NAME",
+        "locations.DESCRIPTION",
+        "locations._id",
     };
 
     /*static*/ private String mFilter;
@@ -51,7 +50,7 @@ public class ObjectListActivity extends ListActivity {
 
         //Cursor mCursor = this.getContentResolver().query(LocationsProvider.CONTENT_ID_URI_BASE, null, null, null, null);
         //startManagingCursor(mCursor);
-        ListAdapter adapter = new SimpleCursorAdapter(
+        ListAdapter adapter = new android.widget.SimpleCursorAdapter(
                 this,
                 R.layout.object_list_layout,
                 //R.layout.two_line_list_item,

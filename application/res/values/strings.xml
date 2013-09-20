@@ -14,5 +14,8 @@
     <string name="resolve_edit">Edit location</string>
     <string name="title_activity_open_file">OpenFileActivity</string>
     <string name="title_activity_compass_controls">CompassControlsActivity</string>
+    <string name="title_activity_track_list">TrackListActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="item_settings">Settings</string>
 
 </resources>

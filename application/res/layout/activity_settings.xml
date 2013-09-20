@@ -1,0 +1,265 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".SettingsActivity" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1" >
+        
+        <SeekBar
+            android:id="@+id/sbElevation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="15dp"
+            android:max="4000"
+            android:progress="0" />
+    
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Minimum altitude"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+        <TextView
+            android:id="@+id/valueElevation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="1200m"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sbElevation"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/valueMaxElevation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:text="4000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/valueHalfMaxElevation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/valueMaxElevation"
+            android:layout_alignBottom="@+id/valueMaxElevation"
+            android:layout_centerHorizontal="true"
+            android:text="2000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="24dp"
+            android:text="Distance range"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+        <TextView
+            android:id="@+id/valueDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView6"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignParentRight="true"
+            android:text="0-50km"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+        <SeekBar
+            android:id="@+id/sbMinDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView6"
+            android:max="60" />
+    
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sbMinDistance"
+            android:text="0 km"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView8"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_alignParentRight="true"
+            android:text="60 km"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sbMinDistance"
+            android:layout_centerHorizontal="true"
+            android:text="30 km"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <SeekBar
+            android:id="@+id/sbMaxDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView8"
+            android:max="60" />
+    
+        <Button
+            android:id="@+id/buttonSettingsOk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="OK" 
+            android:onClick="onOkButtonClicked" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1" >
+    
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sbMaxDistance"
+            android:layout_alignParentTop="true"
+            android:text="Display angles"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:text="55dg"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignParentRight="true"
+            android:text="65dg"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:text="Horizontal angle"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <SeekBar
+            android:id="@+id/sbHorizontalAngle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView4"
+            android:max="100" />
+    
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sbHorizontalAngle"
+            android:text="25dg"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView11"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_centerHorizontal="true"
+            android:text="Vertical angle"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView12"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_alignParentRight="true"
+            android:text="35dg"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <SeekBar
+            android:id="@+id/sbVerticalAngle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView11"
+            android:max="100" />
+    
+        <TextView
+            android:id="@+id/valueHorizontalAngle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/sbHorizontalAngle"
+            android:layout_centerHorizontal="true"
+            android:text="60"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+            android:id="@+id/valueVerticalAngle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/sbVerticalAngle"
+            android:layout_centerHorizontal="true"
+            android:text="30"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <Button
+            android:id="@+id/buttonSettingsCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Cancel" 
+            android:onClick="onCancelButtonClicked" />
+    </RelativeLayout>
+        
+</LinearLayout>

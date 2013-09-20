@@ -9,8 +9,10 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.database.Cursor;
 import android.hardware.Camera;
@@ -32,12 +34,18 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.NumberPicker;
 import android.widget.RelativeLayout;
+import android.widget.SeekBar;
+import android.widget.TextView;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -47,7 +55,7 @@ import java.util.regex.Pattern;
  *
  * @see SystemUiHider
  */
-public class CompassControlsActivity extends Activity {
+public class CompassControlsActivity extends Activity implements CompassView.ZoomListener {
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -58,7 +66,7 @@ public class CompassControlsActivity extends Activity {
      * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
      * user interaction before hiding the system UI.
      */
-    private static final int AUTO_HIDE_DELAY_MILLIS = 3000;
+    private static final int AUTO_HIDE_DELAY_MILLIS = 300;
 
     /**
      * If set, will toggle the system UI visibility upon interaction. Otherwise,
@@ -77,6 +85,7 @@ public class CompassControlsActivity extends Activity {
     private SystemUiHider mSystemUiHider;
     private CameraPreview mCameraPreview;
     private CompassView mSimulationView;
+    private Compass mCompass;
 
     private boolean isCameraStilled = false;
 
@@ -93,75 +102,109 @@ public class CompassControlsActivity extends Activity {
         final View controlsView = findViewById(R.id.fullscreen_content_controls);
         final View contentView = findViewById(R.id.fullscreen_content);
 
+        //controlsView.setVisibility(View.GONE);
+
         mCameraPreview = new CameraPreview(this);
         ((RelativeLayout)contentView).addView(mCameraPreview);
 
         mSimulationView = new CompassView(this);
-        /*if (p.getHorizontalViewAngle()<360.0)
-            mSimulationView.CAMERA_VIEW_ANGLE_HORIZONTAL = p.getHorizontalViewAngle();
-        if (p.getVerticalViewAngle()<360.0)
-            mSimulationView.CAMERA_VIEW_ANGLE_VERTICAL = p.getVerticalViewAngle();*/
+        //mSimulationView.setClickable(true);
 
         ((RelativeLayout)contentView).addView(mSimulationView);
 
+        mCompass = new Compass(this);
+        mCompass.registerAzimutListener(mSimulationView);
+        mSimulationView.registerZoomListener(this);
+
+        SharedPreferences sp = getPreferences(MODE_PRIVATE);
+        mSimulationView.setMinDistance(sp.getFloat("min_distance", (float)mSimulationView.getMinDistance()));
+        mSimulationView.setMaxDistance(sp.getFloat("max_distance", (float)mSimulationView.getMaxDistance()));
+        mSimulationView.setMinElevation(sp.getFloat("min_elevation", (float)mSimulationView.getMinElevation()));
+        mSimulationView.setHorizontalAngle(sp.getFloat("horizontal_angle", mSimulationView.getHorizontalAngle()));
+        mSimulationView.setVerticalAngle(sp.getFloat("vertical_angle", mSimulationView.getVerticalAngle()));
+
+
         // Set up an instance of SystemUiHider to control the system UI for
         // this activity.
-        mSystemUiHider = SystemUiHider.getInstance(this, contentView, HIDER_FLAGS);
-        mSystemUiHider.setup();
-        mSystemUiHider
-                .setOnVisibilityChangeListener(new SystemUiHider.OnVisibilityChangeListener() {
-                    // Cached values.
-                    int mControlsHeight;
 
-                    int mShortAnimTime;
+//        mSystemUiHider = SystemUiHider.getInstance(this, contentView, HIDER_FLAGS);
+//        mSystemUiHider.setup();
+//        mSystemUiHider
+//                .setOnVisibilityChangeListener(new SystemUiHider.OnVisibilityChangeListener() {
+//                    // Cached values.
+//                    int mControlsHeight;
+//
+//                    int mShortAnimTime;
+//
+//                    @Override
+//                    @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
+//                    public void onVisibilityChange(boolean visible) {
+//                        /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
+//                            // If the ViewPropertyAnimator API is available
+//                            // (Honeycomb MR2 and later), use it to animate the
+//                            // in-layout UI controls at the bottom of the
+//                            // screen.
+//                            if (mControlsHeight == 0) {
+//                                mControlsHeight = controlsView.getHeight();
+//                            }
+//                            if (mShortAnimTime == 0) {
+//                                mShortAnimTime = getResources().getInteger(
+//                                        android.R.integer.config_shortAnimTime);
+//                            }
+//                            controlsView.animate().translationY(visible ? 0 : mControlsHeight)
+//                                    .setDuration(mShortAnimTime);
+//                        } else */{
+//                            // If the ViewPropertyAnimator APIs aren't
+//                            // available, simply show or hide the in-layout UI
+//                            // controls.
+//                            controlsView.setVisibility(visible ? View.VISIBLE : View.GONE);
+//                        }
+//
+//                        if (visible && AUTO_HIDE) {
+//                            // Schedule a hide().
+//                            delayedHide(AUTO_HIDE_DELAY_MILLIS);
+//                        }
+//                    }
+//                });
+//
+//        // Set up the user interaction to manually show or hide the system UI.
+//        mSimulationView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                if (TOGGLE_ON_CLICK) {
+//                    mSystemUiHider.toggle();
+//                } else {
+//                    mSystemUiHider.show();
+//                }
+//            }
+//        });
 
-                    @Override
-                    @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
-                    public void onVisibilityChange(boolean visible) {
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
-                            // If the ViewPropertyAnimator API is available
-                            // (Honeycomb MR2 and later), use it to animate the
-                            // in-layout UI controls at the bottom of the
-                            // screen.
-                            if (mControlsHeight == 0) {
-                                mControlsHeight = controlsView.getHeight();
-                            }
-                            if (mShortAnimTime == 0) {
-                                mShortAnimTime = getResources().getInteger(
-                                        android.R.integer.config_shortAnimTime);
-                            }
-                            controlsView.animate().translationY(visible ? 0 : mControlsHeight)
-                                    .setDuration(mShortAnimTime);
-                        } else {
-                            // If the ViewPropertyAnimator APIs aren't
-                            // available, simply show or hide the in-layout UI
-                            // controls.
-                            controlsView.setVisibility(visible ? View.VISIBLE : View.GONE);
-                        }
-
-                        if (visible && AUTO_HIDE) {
-                            // Schedule a hide().
-                            delayedHide(AUTO_HIDE_DELAY_MILLIS);
-                        }
-                    }
-                });
-
-        // Set up the user interaction to manually show or hide the system UI.
+/*
         mSimulationView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (TOGGLE_ON_CLICK) {
-                    mSystemUiHider.toggle();
-                } else {
-                    mSystemUiHider.show();
-                }
+                android.widget.Toast.makeText(getApplicationContext(), "aaa", android.widget.Toast.LENGTH_SHORT).show();
             }
+        });*/
+
+        mSimulationView.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              if (isCameraStilled) {
+                  mCameraPreview.resume();
+                  isCameraStilled = false;
+              }
+              else {
+                  mCameraPreview.pause();
+                  isCameraStilled = true;
+              }
+          }
         });
 
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        findViewById(R.id.buttonFreeze).setOnClickListener(new View.OnClickListener() {
+        /*findViewById(R.id.buttonFreeze).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (mSimulationView.mFrozen) {
@@ -176,14 +219,14 @@ public class CompassControlsActivity extends Activity {
             @Override
             public void onClick(View view) {
                 mSimulationView.mFrozen = true;
-                mSimulationView.setViewDirection(mSimulationView.getViewDirection()-1);
+                mSimulationView.setViewDirection(mSimulationView.getViewDirection()-(mSimulationView.mCameraViewAngleHorizontal/10.0));
             }
         });
         findViewById(R.id.buttonScrollRight).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mSimulationView.mFrozen = true;
-                mSimulationView.setViewDirection(mSimulationView.getViewDirection()+1);
+                mSimulationView.setViewDirection(mSimulationView.getViewDirection()+(mSimulationView.mCameraViewAngleHorizontal/10.0));
             }
         });
 
@@ -195,6 +238,7 @@ public class CompassControlsActivity extends Activity {
                 if (cp.getZoom()+1 <= cp.getMaxZoom()) {
                     mSimulationView.setZoomRatio(cp.getZoomRatios().get(cp.getZoom()+1));
                     mCameraPreview.camera.startSmoothZoom(cp.getZoom()+1);
+                    mCameraPreview.focus();
                 }
             }
         });
@@ -206,18 +250,19 @@ public class CompassControlsActivity extends Activity {
                 if (cp.getZoom()-1 >= 0) {
                     mSimulationView.setZoomRatio(cp.getZoomRatios().get(cp.getZoom()-1));
                     mCameraPreview.camera.startSmoothZoom(cp.getZoom()-1);
+                    mCameraPreview.focus();
                 }
             }
-        });
+        });*/
         findViewById(R.id.buttonStillCamera).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (isCameraStilled) {
-                    mCameraPreview.camera.startPreview();
+                    mCameraPreview.resume();
                     isCameraStilled = false;
                 }
                 else {
-                    mCameraPreview.camera.stopPreview();
+                    mCameraPreview.pause();
                     isCameraStilled = true;
                 }
             }
@@ -231,10 +276,48 @@ public class CompassControlsActivity extends Activity {
         // Trigger the initial hide() shortly after the activity has been
         // created, to briefly hint to the user that UI controls
         // are available.
-        delayedHide(100);
+        //delayedHide(100);
     }
 
-    public void importGpx(String gpxPath, int category){
+    private void onShowSummary()
+    {
+        String[] mTypesProjection = {"_id", "NAME"};
+        String[] mProjection = {"locations._id", "locations.NAME" };
+        Uri typesUri = Uri.parse("content://" + LocationsProvider.AUTHORITY + "/" + "types");
+        Cursor cursorTypes = getContentResolver().query(typesUri, mTypesProjection, null, null, null);
+        cursorTypes.moveToFirst();
+        String s = new String();
+
+        while (!cursorTypes.isAfterLast()) {
+            Uri uri = Uri.parse("content://" + LocationsProvider.AUTHORITY + "/" + "locations");
+            int category = cursorTypes.getInt(0);
+            Cursor cursor = getContentResolver().query(uri, mProjection, "TYPE="+category, null, null);
+            s = s + cursorTypes.getString(1) + ": " + cursor.getCount() + "\n";
+            cursorTypes.moveToNext();
+        }
+
+        AlertDialog alertDialog;
+        alertDialog = new AlertDialog.Builder(this).create();
+        alertDialog.setTitle("Objects count");
+        alertDialog.setMessage(s);
+        alertDialog.show();
+    }
+
+    private float parseGPS(String s) {
+
+        double f = 0;
+
+        Pattern p = Pattern.compile("([0-9]{2,2}):([0-9]{2,2}):([0-9]{2,2})");
+        Matcher m = p.matcher(s);
+        if (m.find() && m.groupCount()==3)
+        {
+           f = Float.parseFloat(m.group(1))+(Float.parseFloat(m.group(2))+(Float.parseFloat(m.group(3))/60.0))/60.0;
+        }
+
+        return (float)f;
+    }
+
+    public void importGpx(String gpxPath, int category) {
 
         try {
 
@@ -255,7 +338,7 @@ public class CompassControlsActivity extends Activity {
                     parser.require(XmlPullParser.START_TAG, null, "wpt");
                     String lat = parser.getAttributeValue(null, "lat");
                     String lon = parser.getAttributeValue(null, "lon");
-                    String alt = "";
+                    String alt = "0";
                     String title = "";
 
                     String mname = "";
@@ -265,6 +348,14 @@ public class CompassControlsActivity extends Activity {
                             continue;
                         }
                         String name2 = parser.getName();
+                        if (name2.equals("ele")) {
+                            if (parser.next() == XmlPullParser.TEXT) {
+                                alt = parser.getText();
+                                parser.nextTag();
+                                parser.require(XmlPullParser.END_TAG, null, "ele");
+                            }
+                        }
+
                         if (name2.equals("name")) {
                             if (parser.next() == XmlPullParser.TEXT) {
                                 mname = parser.getText();
@@ -286,7 +377,6 @@ public class CompassControlsActivity extends Activity {
                     else
                     {
                         title = mname;
-                        alt = "0";
                     }
 
                     Log.e("XML", "<" + title + "> Alt:" + alt + "m Lat:" + lat + "N Lon:" + lon + "E");
@@ -296,8 +386,17 @@ public class CompassControlsActivity extends Activity {
                     values.put("DESCRIPTION", "Elevation: " + alt + ", GPS: " + lat.toString() + " " + lon.toString());
 
                     try {
-                        values.put("LATITUDE", Float.parseFloat(lat.toString().replace(',', '.')));
-                        values.put("LONGITUDE", Float.parseFloat(lon.toString().replace(',', '.')));
+                        if (lat.contains(":")) {
+                            values.put("LATITUDE", parseGPS(lat));
+                        } else {
+                            values.put("LATITUDE", Float.parseFloat(lat.toString().replace(',', '.')));
+                        }
+                        if (lon.contains(":")) {
+                            values.put("LONGITUDE", parseGPS(lon));
+                        } else {
+                            values.put("LONGITUDE", Float.parseFloat(lon.toString().replace(',', '.')));
+                        }
+
                         values.put("ELEVATION", Float.parseFloat(alt.replace(',', '.')));
                         values.put("TYPE", category);
 
@@ -325,11 +424,232 @@ public class CompassControlsActivity extends Activity {
         }
     }
 
+    private void onSetGpsPositionManually() {
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+
+        alert.setTitle("Set GPS");
+        alert.setMessage("Enter file name on external storage:");
+
+        SharedPreferences sp = getPreferences(MODE_PRIVATE);
+
+        // Set an EditText view to get user input
+        final LinearLayout layout = new LinearLayout(this);
+        layout.setOrientation(LinearLayout.VERTICAL);
+        final EditText input1 = new EditText(this);
+        input1.setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
+        input1.setText(String.format(Locale.US, "%f", sp.getFloat("position_lat", 0.0f)));
+        layout.addView(input1);
+
+        final EditText input2 = new EditText(this);
+        input2.setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
+        input2.setText(String.format(Locale.US, "%f", sp.getFloat("position_lon", 0.0f)));
+        layout.addView(input2);
+
+        final EditText input3 = new EditText(this);
+        input3.setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
+        input3.setText(String.format(Locale.US, "%f", sp.getFloat("position_ele", 0.0f)));
+        layout.addView(input3);
+
+        alert.setView(layout);
+
+        alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+        public void onClick(DialogInterface dialog, int whichButton) {
+
+          float lat = Float.parseFloat(input1.getText().toString());
+          float lon = Float.parseFloat(input2.getText().toString());
+          float ele = Float.parseFloat(input3.getText().toString());
+
+          Location loc = new Location("");
+          loc.setLatitude(lat);
+          loc.setLongitude(lon);
+          loc.setAltitude(ele);
+          mSimulationView.setCurrentLocation(loc);
+
+          SharedPreferences sp = getPreferences(MODE_PRIVATE);
+          SharedPreferences.Editor spe = sp.edit();
+          spe.putFloat("position_lat", lat);
+          spe.putFloat("position_lon", lon);
+          spe.putFloat("position_ele", ele);
+          spe.commit();
+          }
+        });
+
+        alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+          public void onClick(DialogInterface dialog, int whichButton) {
+            // Canceled.
+          }
+        });
+
+        alert.show();
+    }
+
+     private void onImportGpx() {
+        AlertDialog.Builder importDlg = new AlertDialog.Builder(this);
+
+        importDlg.setTitle("Import");
+        importDlg.setMessage("Enter file name on external storage:");
+
+        final LinearLayout importDlgLayout = new LinearLayout(this);
+        importDlgLayout.setOrientation(LinearLayout.VERTICAL);
+
+        String[] mTypesProjection = {"_id", "NAME", "VISIBLE"};
+        Uri typesUri = Uri.parse("content://" + LocationsProvider.AUTHORITY + "/" + "types");
+        Cursor cursorTypes = getContentResolver().query(typesUri, mTypesProjection, null, null, null);
+        final LocationTypesCombo combo = new LocationTypesCombo(this, cursorTypes);
+        combo.setSuggestionSource("NAME");
+        importDlgLayout.addView(combo);
+
+        // Set an EditText view to get user input
+        final EditText input = new EditText(this);
+        importDlgLayout.addView(input);
+
+
+        importDlg.setView(importDlgLayout);
+        importDlg.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+          public void onClick(DialogInterface dialog, int whichButton) {
+            int id = combo.getId();
+            if (id>=0)
+            {
+              Editable value = input.getText();
+              importGpx(value.toString(), id);
+              mSimulationView.reloadObjects(true);
+            }
+          }
+        });
+
+        importDlg.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+          public void onClick(DialogInterface dialog, int whichButton) {
+            // Canceled.
+          }
+        });
+
+        importDlg.show();
+    }
+
+    private void onReleaseCompass() {
+        if (mSimulationView.mFrozen) {
+            mSimulationView.mFrozen = false;
+        } else {
+            mSimulationView.mFrozen = true;
+        }
+    }
+
+    private void onSettings() {
+        /*AlertDialog.Builder settingsDlg = new AlertDialog.Builder(this);
+
+        settingsDlg.setTitle("Settings");
+        settingsDlg.setMessage("Minimum and maximum distance");
+
+        final LinearLayout dlgLayout = new LinearLayout(this);
+        dlgLayout.setOrientation(LinearLayout.HORIZONTAL);
+
+        TextView t1 = new TextView(this);
+        t1.setText("Min");
+        dlgLayout.addView(t1);
+        final NumberPicker np1 = new NumberPicker(this);
+        np1.setMinValue(0);
+        np1.setMaxValue(50);
+        np1.setValue((int)mSimulationView.getMinDistance()/1000);
+        dlgLayout.addView(np1);
+
+        TextView t2 = new TextView(this);
+        t2.setText("Max");
+        dlgLayout.addView(t2);
+        final NumberPicker np2 = new NumberPicker(this);
+        np2.setMinValue(0);
+        np2.setMaxValue(50);
+        np2.setValue((int)mSimulationView.getMaxDistance()/1000);
+        dlgLayout.addView(np2);
+
+        TextView t3 = new TextView(this);
+        t3.setText("Elev");
+        dlgLayout.addView(t3);
+        final SeekBar sb3 = new SeekBar(this);
+        sb3.setMax(3000);
+        sb3.setProgress((int)mSimulationView.getMinElevation());
+        dlgLayout.addView(sb3);
+
+        settingsDlg.setView(dlgLayout);
+
+        settingsDlg.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+          public void onClick(DialogInterface dialog, int whichButton) {
+            int min = np1.getValue();
+            int max = np2.getValue();
+            int ele = sb3.getProgress();
+            mSimulationView.setMinDistance(min*1000);
+            mSimulationView.setMaxDistance(max*1000);
+            mSimulationView.setMinElevation((float)ele);
+            mSimulationView.reloadObjects(true);
+          }
+        });
+
+        settingsDlg.show();*/
+
+        Intent intent = new Intent(CompassControlsActivity.this, SettingsActivity.class);
+        intent.putExtra("minElevation", (int)mSimulationView.getMinElevation());
+        intent.putExtra("maxElevation", (int)mSimulationView.getMaxElevation());
+        intent.putExtra("minDistance", (int)(mSimulationView.getMinDistance()/1000));
+        intent.putExtra("maxDistance", (int)(mSimulationView.getMaxDistance()/1000));
+        intent.putExtra("horizontalAngle", mSimulationView.getHorizontalAngle());
+        intent.putExtra("verticalAngle", mSimulationView.getVerticalAngle());
+
+        startActivityForResult(intent, SettingsActivity.REQUESTCODE);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == SettingsActivity.REQUESTCODE)
+        {
+            if (resultCode == SettingsActivity.RESULTCODE_OK)
+            {
+                int minElevation = data.getExtras().getInt("minElevation");
+                int minDistance = data.getExtras().getInt("minDistance");
+                int maxDistance = data.getExtras().getInt("maxDistance");
+                float horizontalAngle = data.getExtras().getFloat("horizontalAngle");
+                float verticalAngle = data.getExtras().getFloat("verticalAngle");
+
+                mSimulationView.setMinElevation(minElevation);
+                mSimulationView.setMinDistance(minDistance*1000);
+                mSimulationView.setMaxDistance(maxDistance*1000);
+                mSimulationView.setHorizontalAngle(horizontalAngle);
+                mSimulationView.setVerticalAngle(verticalAngle);
+                mSimulationView.setZoomRatio(100);
+                //onZoomChange(0); //zoom to default value
+
+                mSimulationView.reloadObjects(false);
+
+                SharedPreferences sp = getPreferences(MODE_PRIVATE);
+                SharedPreferences.Editor spe = sp.edit();
+                spe.putFloat("min_distance", (float)mSimulationView.getMinDistance());
+                spe.putFloat("max_distance", (float)mSimulationView.getMaxDistance());
+                spe.putFloat("min_elevation", (float)mSimulationView.getMinElevation());
+                spe.putFloat("horizontal_angle", mSimulationView.getHorizontalAngle());
+                spe.putFloat("vertical_angle", mSimulationView.getVerticalAngle());
+                spe.commit();
+            }
+        }
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.activity_compass_controls, menu);
+        Menu filterMenu = menu.addSubMenu("Filter");
+
+        String[] mTypesProjection = {"_id", "NAME", "VISIBLE"};
+        Uri typesUri = Uri.parse("content://" + LocationsProvider.AUTHORITY + "/" + "types");
+        Cursor cursorTypes = getContentResolver().query(typesUri, mTypesProjection, null, null, null);
+        //final LocationTypesCombo combo = new LocationTypesCombo(this, cursorTypes);
+
+        cursorTypes.moveToFirst();
+        while (!cursorTypes.isAfterLast()) {
+            MenuItem item = filterMenu.add(0, 1230 + cursorTypes.getInt(0), 0, cursorTypes.getString(1));
+            item.setCheckable(true);
+            item.setChecked(cursorTypes.getInt(2)!=0);
+            cursorTypes.moveToNext();
+        }
         return true;
     }
 
@@ -337,50 +657,17 @@ public class CompassControlsActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
+            case R.id.itemReleaseCompass:
+                onReleaseCompass();
+                return true;
+            case R.id.itemSettings:
+                onSettings();
+                return true;
             case R.id.itemgpsauto:
                 mSimulationView.updateCurrentLocation();
                 return true;
             case R.id.itemgpsmanual:
-                AlertDialog.Builder alert = new AlertDialog.Builder(this);
-
-                alert.setTitle("Set GPS");
-                alert.setMessage("Enter file name on external storage:");
-
-                // Set an EditText view to get user input
-                final LinearLayout layout = new LinearLayout(this);
-                layout.setOrientation(LinearLayout.VERTICAL);
-                final EditText input1 = new EditText(this);
-                input1.setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
-                input1.setText(String.format("%f", mSimulationView.getCurrentLocation().getLatitude()).replace('.', ','));
-                layout.addView(input1);
-
-                final EditText input2 = new EditText(this);
-                input2.setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
-                input2.setText(String.format("%f", mSimulationView.getCurrentLocation().getLongitude()).replace('.', ','));
-                layout.addView(input2);
-
-                alert.setView(layout);
-
-                alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int whichButton) {
-
-                  float lat = Float.parseFloat(input1.getText().toString().replace(',', '.'));
-                  float lon = Float.parseFloat(input2.getText().toString().replace(',', '.'));
-
-                  Location loc = new Location("");
-                  loc.setLatitude(lat);
-                  loc.setLongitude(lon);
-                  mSimulationView.setCurrentLocation(loc);
-                  }
-                });
-
-                alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                  public void onClick(DialogInterface dialog, int whichButton) {
-                    // Canceled.
-                  }
-                });
-
-                alert.show();
+                onSetGpsPositionManually();
                 return true;
             case R.id.itemObjectAdd:
                 startActivity(new Intent(Intent.ACTION_INSERT, LocationsProvider.CONTENT_ID_URI_LOCATION));
@@ -390,66 +677,22 @@ public class CompassControlsActivity extends Activity {
                 startActivity(intent);
                 return true;
             case R.id.itemObjectsImport:
-                AlertDialog.Builder importDlg = new AlertDialog.Builder(this);
-
-                importDlg.setTitle("Import");
-                importDlg.setMessage("Enter file name on external storage:");
-
-                final LinearLayout importDlgLayout = new LinearLayout(this);
-                importDlgLayout.setOrientation(LinearLayout.VERTICAL);
-
-                String[] mTypesProjection = {"_id", "NAME"};
-                Uri typesUri = Uri.parse("content://" + LocationsProvider.AUTHORITY + "/" + "types");
-                Cursor cursorTypes = getContentResolver().query(typesUri, mTypesProjection, null, null, null);
-                final LocationTypesCombo combo = new LocationTypesCombo(this, cursorTypes);
-                combo.setSuggestionSource("NAME");
-                importDlgLayout.addView(combo);
-
-                // Set an EditText view to get user input
-                final EditText input = new EditText(this);
-                importDlgLayout.addView(input);
-
-
-                importDlg.setView(importDlgLayout);
-                importDlg.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                  public void onClick(DialogInterface dialog, int whichButton) {
-                    int id = combo.getId();
-                    if (id>=0)
-                    {
-                      Editable value = input.getText();
-                      importGpx(value.toString(), id);
-                      mSimulationView.reloadObjects(true);
-                    }
-                  }
-                });
-
-                importDlg.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                  public void onClick(DialogInterface dialog, int whichButton) {
-                    // Canceled.
-                  }
-                });
-
-                importDlg.show();
+                onImportGpx();
                 return true;
             case R.id.itemObjectSummary:
-                String[] mProjection =
-                {
-                    "_id",
-                    "NAME",
-                    "DESCRIPTION"
-                };
-                // Initializes an array to contain selection arguments
-
-                Uri uri = Uri.parse("content://" + LocationsProvider.AUTHORITY + "/" + "locations");
-                Cursor cursor = getContentResolver().query(uri, mProjection, null, null, null);
-
-                AlertDialog alertDialog;
-                alertDialog = new AlertDialog.Builder(this).create();
-                alertDialog.setTitle("Objects count");
-                alertDialog.setMessage("Records: "+ cursor.getCount());
-                alertDialog.show();
+                onShowSummary();
                 return true;
             default:
+                if (item.getItemId()>=1230 && item.getItemId()<1250)
+                {
+                    item.setChecked(item.isChecked()?false:true);
+                    Uri typeUri = Uri.parse("content://" + LocationsProvider.AUTHORITY + "/types/" + (item.getItemId()-1230));
+                    ContentValues values = new ContentValues();
+                    values.put("VISIBLE", item.isChecked()?1:0);
+                    getContentResolver().update(typeUri, values, null, null);
+                    mSimulationView.reloadObjects(true);
+                }
+
                 return super.onOptionsItemSelected(item);
         }
     }
@@ -470,38 +713,66 @@ public class CompassControlsActivity extends Activity {
         }
     };*/
 
-    Handler mHideHandler = new Handler();
+    /*Handler mHideHandler = new Handler();
 
     Runnable mHideRunnable = new Runnable() {
         @Override
         public void run() {
             mSystemUiHider.hide();
         }
-    };
+    };*/
 
     /**
      * Schedules a call to hide() in [delay] milliseconds, canceling any
      * previously scheduled calls.
      */
-    private void delayedHide(int delayMillis) {
+    /*private void delayedHide(int delayMillis) {
         mHideHandler.removeCallbacks(mHideRunnable);
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
-    }
+    }*/
 
 
     @Override
     protected void onResume() {
         super.onResume();
-        mSimulationView.startSimulation();
+        mCompass.start();
         mCameraPreview.initCamera();
         mCameraPreview.camera.startPreview();
+
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        mSimulationView.stopSimulation();
+        mCompass.stop();
         mCameraPreview.camera.stopPreview();
     }
 
+    public void onZoomChange(double zoom) {
+
+        Camera.Parameters cp = mCameraPreview.camera.getParameters();
+        Iterator<Integer> supportedZoomRatio = cp.getZoomRatios().iterator();
+
+        Integer z = 0;
+        Integer idx = 0;
+        while(supportedZoomRatio.hasNext()) {
+            z = supportedZoomRatio.next();
+            if (zoom <= z) {
+                break;
+            }
+            idx++;
+        }
+
+        if (idx >= cp.getZoomRatios().size()) {
+            idx = cp.getZoomRatios().size()-1;
+        }
+
+        mSimulationView.setZoomRatio(z);
+        mCameraPreview.camera.startSmoothZoom(idx);
+        mCameraPreview.focus();
+
+    }
 }
+
+
+

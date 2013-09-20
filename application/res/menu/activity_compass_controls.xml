@@ -10,10 +10,10 @@
         <menu>
             <item android:id="@+id/itemObjectList" android:title="List"/>
             <item android:id="@+id/itemObjectAdd" android:title="Add..."/>
-            
-            <item android:id="@+id/itemObjectsImport" android:title="Import..."/><item android:id="@+id/itemObjectSummary" android:title="Summary" />
+            <item android:id="@+id/itemObjectsImport" android:title="Import..."/>
+            <item android:id="@+id/itemObjectSummary" android:title="Summary" />
         </menu>
     </item>
-    
-
+    <item android:id="@+id/itemSettings" android:title="@string/item_settings"></item>
+    <item android:id="@+id/itemReleaseCompass" android:title="Release compass"></item>
 </menu>

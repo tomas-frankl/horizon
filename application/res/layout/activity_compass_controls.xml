@@ -1,9 +1,10 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="720dp"
+    android:layout_height="480dp"
     android:background="#0099cc"
     tools:context=".CompassControlsActivity" >
+    
 
     <!--
          The primary full-screen view. This can be replaced with whatever view
@@ -15,6 +16,15 @@
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/buttonStillCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Still" />
+
     </RelativeLayout>
 
     <!-- <TextView
@@ -32,66 +42,5 @@
          This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows.
     -->
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clickable="true"
-        android:fitsSystemWindows="true" >
-
-        <LinearLayout
-            android:id="@+id/fullscreen_content_controls"
-            style="?buttonBarStyle"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:background="@color/black_overlay"
-            android:orientation="horizontal"
-            tools:ignore="UselessParent" >
-
-            <Button
-                android:id="@+id/buttonScrollLeft"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="&lt;&lt;&lt;" />
-
-            <Button
-                android:id="@+id/buttonZoomOut"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="-" />
-
-            <Button
-                android:id="@+id/buttonZoomIn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="+" />
-
-            <Button
-                android:id="@+id/buttonFreeze"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dummy_button" />
-
-            <Button
-                android:id="@+id/buttonStillCamera"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Still" />
-
-            <Button
-                android:id="@+id/buttonScrollRight"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text=">>>" />
-
-        </LinearLayout>
-    </FrameLayout>
 
 </FrameLayout>

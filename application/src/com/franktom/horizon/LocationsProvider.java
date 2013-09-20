@@ -13,7 +13,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
 import android.util.Log;
-
 import java.util.HashMap;
 
 public class LocationsProvider extends ContentProvider {
@@ -25,6 +24,7 @@ public class LocationsProvider extends ContentProvider {
     private static final int LOCATION_ID = 2;
     private static final int TYPES = 3;
     private static final int TYPE_ID = 4;
+    private static final int VISIBLE_LOCATIONS = 5;
 
 
     public static final int _ID_PATH_POSITION = 1;
@@ -36,6 +36,9 @@ public class LocationsProvider extends ContentProvider {
 
     public static final Uri CONTENT_ID_URI_LOCATION
     = Uri.parse("content://" + AUTHORITY + "/locations/");
+
+    public static final Uri CONTENT_ID_URI_VISIBLE_LOCATION
+    = Uri.parse("content://" + AUTHORITY + "/visiblelocations/");
 
     public static final Uri CONTENT_ID_URI_TYPE
     = Uri.parse("content://" + AUTHORITY + "/types/");
@@ -88,7 +91,7 @@ public class LocationsProvider extends ContentProvider {
     private static final String SQL_CREATE_TYPES = "CREATE TABLE " +
             TABLE_NAME_TYPES +                       // Table's name
             "(" +                           // The columns in the table
-            " '_id' INTEGER PRIMARY KEY AUTOINCREMENT, NAME TEXT )";
+            " '_id' INTEGER PRIMARY KEY AUTOINCREMENT, NAME TEXT, VISIBLE INTEGER )";
 
     /**
      * Helper class that actually creates and manages the provider's underlying data repository.
@@ -112,11 +115,13 @@ public class LocationsProvider extends ContentProvider {
             // Creates the main table
             db.execSQL(SQL_CREATE_MAIN);
             db.execSQL(SQL_CREATE_TYPES);
-            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME) VALUES (0, 'Mountains')");
-            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME) VALUES (1, 'Palaces')");
-            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME) VALUES (2, 'Castles')");
-            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME) VALUES (3, 'View towers')");
-            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME) VALUES (4, 'Transmitters')");
+            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME, VISIBLE) VALUES (0, 'Mountains', 1)");
+            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME, VISIBLE) VALUES (1, 'Palaces', 1)");
+            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME, VISIBLE) VALUES (2, 'Castles', 1)");
+            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME, VISIBLE) VALUES (3, 'View towers', 1)");
+            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME, VISIBLE) VALUES (4, 'Transmitters', 1)");
+            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME, VISIBLE) VALUES (5, 'Ruins', 1)");
+            db.execSQL("INSERT INTO " + TABLE_NAME_TYPES + "(_id, NAME, VISIBLE) VALUES (6, 'Lakes', 1)");
         }
 
         @Override
@@ -301,6 +306,13 @@ public class LocationsProvider extends ContentProvider {
                 }
                 break;
 
+            case VISIBLE_LOCATIONS:
+                {
+                    qb.setTables(TABLE_NAME + ", " + TABLE_NAME_TYPES);
+                    qb.setProjectionMap(sNotesProjectionMap);
+                    qb.appendWhere("locations.TYPE=types._id AND types.VISIBLE<>0");
+                }
+                break;
             default:
                 // If the URI doesn't match any of the known patterns, throw an exception.
                 throw new IllegalArgumentException("Unknown URI " + uri);
@@ -459,18 +471,21 @@ public class LocationsProvider extends ContentProvider {
         sUriMatcher.addURI(AUTHORITY, "locations/#", LOCATION_ID);
         sUriMatcher.addURI(AUTHORITY, "types", TYPES);
         sUriMatcher.addURI(AUTHORITY, "types/#", TYPE_ID);
+        sUriMatcher.addURI(AUTHORITY, "visiblelocations", VISIBLE_LOCATIONS);
+
 
         sNotesProjectionMap = new HashMap<String, String>();
-        sNotesProjectionMap.put("_id", "_id");
-        sNotesProjectionMap.put("NAME", "NAME");
-        sNotesProjectionMap.put("DESCRIPTION", "DESCRIPTION");
-        sNotesProjectionMap.put("LATITUDE", "LATITUDE");
-        sNotesProjectionMap.put("LONGITUDE", "LONGITUDE");
-        sNotesProjectionMap.put("ELEVATION", "ELEVATION");
-        sNotesProjectionMap.put("TYPE", "TYPE");
+        sNotesProjectionMap.put("locations._id", "locations._id");
+        sNotesProjectionMap.put("locations.NAME", "locations.NAME");
+        sNotesProjectionMap.put("locations.DESCRIPTION", "locations.DESCRIPTION");
+        sNotesProjectionMap.put("locations.LATITUDE", "locations.LATITUDE");
+        sNotesProjectionMap.put("locations.LONGITUDE", "locations.LONGITUDE");
+        sNotesProjectionMap.put("locations.ELEVATION", "locations.ELEVATION");
+        sNotesProjectionMap.put("locations.TYPE", "locations.TYPE");
 
         sTypesProjectionMap = new HashMap<String, String>();
         sTypesProjectionMap.put("_id", "_id");
         sTypesProjectionMap.put("NAME", "NAME");
+        sTypesProjectionMap.put("VISIBLE", "VISIBLE");
     }
 }

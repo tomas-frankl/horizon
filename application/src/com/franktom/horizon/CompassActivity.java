@@ -81,9 +81,9 @@ public class CompassActivity extends Activity {
 
         mSimulationView = new CompassView(this);
         if (p.getHorizontalViewAngle()<360.0)
-            mSimulationView.CAMERA_VIEW_ANGLE_HORIZONTAL = p.getHorizontalViewAngle();
+            mSimulationView.mCameraViewAngleHorizontal = p.getHorizontalViewAngle();
         if (p.getVerticalViewAngle()<360.0)
-            mSimulationView.CAMERA_VIEW_ANGLE_VERTICAL = p.getVerticalViewAngle();
+            mSimulationView.mCameraViewAngleVertical = p.getVerticalViewAngle();
 
 //      setContentView(mSimulationView);
         layout.addView(mSimulationView);
@@ -94,13 +94,13 @@ public class CompassActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        mSimulationView.startSimulation();
+//        mSimulationView.startSimulation();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        mSimulationView.stopSimulation();
+//        mSimulationView.stopSimulation();
 
     }
 

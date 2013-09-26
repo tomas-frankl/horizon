@@ -1,8 +1,6 @@
 
 package com.franktom.horizon;
 
-import com.franktom.horizon.util.SystemUiHider;
-
 import org.xmlpull.v1.XmlPullParser;
 
 import android.app.Activity;

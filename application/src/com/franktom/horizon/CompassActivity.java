@@ -1,8 +1,6 @@
 
 package com.franktom.horizon;
 
-import com.franktom.horizon.util.SystemUiHider;
-
 //import android.annotation.TargetApi;
 import android.app.Activity;
 //import android.content.Context;

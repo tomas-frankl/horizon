@@ -1,10 +1,7 @@
 package com.franktom.horizon;
 
-import com.franktom.horizon.Compass.CompassListener;
-
 import android.app.Activity;
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -23,6 +20,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
 import java.lang.Math;
 
 class CompassView extends View implements Compass.CompassListener, View.OnClickListener, View.OnTouchListener {
@@ -362,7 +360,7 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
 
             //StringBuilder selection;
             String selection =
-                    String.format("LATITUDE>%1.2f AND LATITUDE<%1.2f AND LONGITUDE>%1.2f AND LONGITUDE<%1.2f",
+                    String.format(Locale.getDefault(), "LATITUDE>%1.2f AND LATITUDE<%1.2f AND LONGITUDE>%1.2f AND LONGITUDE<%1.2f",
                             mCurrentLocation.getLatitude()-parallelDistanceInDg,
                             mCurrentLocation.getLatitude()+parallelDistanceInDg,
                             mCurrentLocation.getLongitude()-meridianDistanceInDg,
@@ -501,7 +499,6 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
 
     private static final int HEADER_HEIGHT = 30; //%
     private static final int HEADER_HEIGHT_TOUCH_AREA = 50;
-    private static final int SCALE_HEIGHT = 1; //%
     private static final float MARKER_SIZE = 1.6f; //pts
     private static final int LOCKED_BUTTON_WIDTH = 15; //pts
     private static final int LOCKED_BUTTON_HEIGHT = 10; //pts

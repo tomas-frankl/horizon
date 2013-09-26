@@ -23,7 +23,6 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.ListAdapter;
 
 import java.io.BufferedInputStream;
 //import java.io.File;
@@ -287,8 +286,8 @@ public class MainActivity extends Activity {
 
         alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
         public void onClick(DialogInterface dialog, int whichButton) {
-          float lat = Float.parseFloat(input1.getText().toString().replace(',', '.'));
-          float lon = Float.parseFloat(input2.getText().toString().replace(',', '.'));
+          Float.parseFloat(input1.getText().toString().replace(',', '.'));
+          Float.parseFloat(input2.getText().toString().replace(',', '.'));
           }
         });
 

@@ -301,7 +301,7 @@ public class SolarPosition {
     static long S_solpos (posdata pdat) {
       long retval;
 
-      trigdata trigdat = new trigdata();
+      //trigdata trigdat = new trigdata();
       trigdata tdat = new trigdata();
 
       /* initialize the trig structure */

@@ -5,6 +5,7 @@ import android.hardware.Camera;
 import android.hardware.Camera.AutoFocusCallback;
 import android.hardware.Camera.PreviewCallback;
 import android.hardware.Camera.Size;
+import android.os.Build;
 import android.os.Handler;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -13,20 +14,21 @@ import java.io.IOException;
 import java.util.List;
 
 class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
-    private static final String TAG = "Preview";
-
     SurfaceHolder mHolder;
     public Camera camera;
     private Handler autoFocusHandler;
 
-    CameraPreview(Context context) {
+    @SuppressWarnings("deprecation")
+	CameraPreview(Context context) {
         super(context);
 
         // Install a SurfaceHolder.Callback so we get notified when the
         // underlying surface is created and destroyed.
         mHolder = getHolder();
         mHolder.addCallback(this);
-        mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+        if(Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+        	mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+        }
 
         camera = Camera.open();
 

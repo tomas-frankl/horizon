@@ -23,6 +23,11 @@ public class LocationTypesCombo extends LinearLayout {
        mSource = source;
    }
 
+   public LocationTypesCombo(Context context, AttributeSet attrs) {
+       super(context);
+       this.createChildControls(context);
+   }
+   
    public LocationTypesCombo(Context context, Cursor source, AttributeSet attrs) {
        super(context, attrs);
        this.createChildControls(context);
@@ -31,7 +36,7 @@ public class LocationTypesCombo extends LinearLayout {
 
  private void createChildControls(Context context) {
     this.setOrientation(HORIZONTAL);
-    this.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT,
+    this.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,
                    LayoutParams.WRAP_CONTENT));
 
    _text = new AutoCompleteTextView(context);
@@ -66,7 +71,8 @@ public class LocationTypesCombo extends LinearLayout {
  public void setSuggestionSource(String column) {
     String[] from = new String[] { column };
     int[] to = new int[] { android.R.id.text1 };
-    SimpleCursorAdapter cursorAdapter = new SimpleCursorAdapter(this.getContext(),
+    @SuppressWarnings("deprecation")
+	SimpleCursorAdapter cursorAdapter = new SimpleCursorAdapter(this.getContext(),
                    android.R.layout.simple_dropdown_item_1line, mSource, from, to);
     // this is to ensure that when suggestion is selected
     // it provides the value to the textbox

@@ -2,11 +2,9 @@ package com.franktom.horizon;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -34,8 +32,6 @@ public class FolderLayout extends LinearLayout implements OnItemClickListener {
         this.context = context;
 
 
-        LayoutInflater layoutInflater = (LayoutInflater) context
-                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         //View view = (View)layoutInflater.inflate(R.layout.folderview, this);
 
         myPath = (TextView) findViewById(R.id.path);
@@ -87,11 +83,6 @@ public class FolderLayout extends LinearLayout implements OnItemClickListener {
 
     //can manually set Item to display, if u want
     public void setItemList(List<String> item){
-        //###
-        ArrayAdapter<String> fileList =
-                new ArrayAdapter<String>(context, R.layout.row, item);
-
-//        lstView.setAdapter(fileList);
         lstView.setOnItemClickListener(this);
     }
 

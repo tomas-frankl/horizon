@@ -12,6 +12,7 @@ import android.location.Location;
 import android.text.format.Time;
 import android.util.DisplayMetrics;
 import android.util.FloatMath;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import java.util.ArrayList;
@@ -69,7 +70,7 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
     static final float mDistanceLimit3 = (float)40000.0;
     static final float mElevationLimit3 = (float)1000.0;
     static final float mHideOverlappingLimit = (float)2.0;
-    static final boolean mDrawHelperLines = false;
+    static final boolean mDrawHelperLines = true;
 
     boolean mFrozen = false;
 
@@ -240,7 +241,7 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
 
         mPaintObjects = new Paint();
         mPaintObjects.setColor(Color.WHITE);
-        mPaintObjects.setTextSize(20);
+        mPaintObjects.setTextSize(12);//20xperia
         mPaintObjects.setTextAlign(Align.LEFT);
 
         mPaintObjectsLines = new Paint();
@@ -507,9 +508,10 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
 
     @Override
     protected void onDraw(Canvas canvas) {
-
-        final float xc = mXOrigin/2;
-        final float yc = mYOrigin/2;
+    	mYOrigin = canvas.getHeight();
+    	mXOrigin = canvas.getWidth();
+        float xc = mXOrigin/2;
+        float yc = mYOrigin/2;
 
 
         //background
@@ -520,7 +522,7 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
 
         //center lines
         if (mDrawHelperLines) {
-            canvas.drawLine(xc, mYOrigin/100*HEADER_HEIGHT, xc, mYOrigin/100*100, mPaint);
+            canvas.drawLine(xc, 0, xc, mYOrigin, mPaint);
             canvas.drawLine(0, yc, mXOrigin, yc, mPaint);
         }
 
@@ -685,6 +687,7 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
 
     @Override
     public void onAzimutChange(double azimut) {
+    	Log.d("CompassView","onAzimutChange : " + azimut);
         if (!mFrozen) {
             setViewDirection(azimut);
         }
@@ -695,7 +698,7 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
         // compute the origin of the screen relative to the origin of
         // the bitmap
         mXOrigin = w;
-        mYOrigin = 480;//h;
+        mYOrigin = h;
         msInPixels = mXOrigin/100*MARKER_SIZE;
 
         mPaintButtonLabel.setTextSize(mXOrigin/100*2.5f); //30

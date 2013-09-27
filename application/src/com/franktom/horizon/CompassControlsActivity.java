@@ -28,6 +28,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
@@ -389,28 +390,42 @@ public class CompassControlsActivity extends Activity implements CompassView.Zoo
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
 
         alert.setTitle("Set GPS");
-        alert.setMessage("Enter file name on external storage:");
+        alert.setMessage("Enter latitude, longitude and altitude:");
 
         SharedPreferences sp = getPreferences(MODE_PRIVATE);
 
         // Set an EditText view to get user input
         final LinearLayout layout = new LinearLayout(this);
         layout.setOrientation(LinearLayout.VERTICAL);
+        
+        final LinearLayout layout2 = new LinearLayout(this);
+        layout2.setOrientation(LinearLayout.HORIZONTAL);
+        
+        final TextView tv1 = new TextView(this);
+        tv1.setText("Lat:");
+        layout2.addView(tv1);
         final EditText input1 = new EditText(this);
         input1.setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
-        input1.setText(String.format(Locale.US, "%f", sp.getFloat("position_lat", 0.0f)));
-        layout.addView(input1);
+        input1.setText(String.format(Locale.US, "%.7f", sp.getFloat("position_lat", 0.0f)));
+        layout2.addView(input1);
 
+        final TextView tv2 = new TextView(this);
+        tv2.setText("Lon:");
+        layout2.addView(tv2);
         final EditText input2 = new EditText(this);
         input2.setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
-        input2.setText(String.format(Locale.US, "%f", sp.getFloat("position_lon", 0.0f)));
-        layout.addView(input2);
-
+        input2.setText(String.format(Locale.US, "%.7f", sp.getFloat("position_lon", 0.0f)));
+        layout2.addView(input2);
+        
+        final TextView tv3 = new TextView(this);
+        tv3.setText("Alt:");
+        layout2.addView(tv3);
         final EditText input3 = new EditText(this);
         input3.setRawInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
-        input3.setText(String.format(Locale.US, "%f", sp.getFloat("position_ele", 0.0f)));
-        layout.addView(input3);
+        input3.setText(String.format(Locale.US, "%.0f", sp.getFloat("position_ele", 0.0f)));
+        layout2.addView(input3);
 
+        layout.addView(layout2);
         alert.setView(layout);
 
         alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {

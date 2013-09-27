@@ -46,17 +46,18 @@ public class ObjectListActivity extends ListActivity {
     {
         //String[] mSelectionArgs = {""};
         Uri uri = Uri.parse("content://" + LocationsProvider.AUTHORITY + "/" + "locations");
-        Cursor mCursor = getContentResolver().query(uri, PROJECTION, filterText!=null?"NAME LIKE '%" + filterText + "%'":null, null, null);
+        Cursor mCursor = getContentResolver().query(uri, PROJECTION, filterText!=null?"NAME LIKE '%" + filterText + "%'":null, null, "NAME");
 
         //Cursor mCursor = this.getContentResolver().query(LocationsProvider.CONTENT_ID_URI_BASE, null, null, null, null);
         //startManagingCursor(mCursor);
-        ListAdapter adapter = new android.widget.SimpleCursorAdapter(
+        @SuppressWarnings("deprecation")
+		ListAdapter adapter = new android.widget.SimpleCursorAdapter(
                 this,
                 R.layout.object_list_layout,
                 //R.layout.two_line_list_item,
                 mCursor,
                 PROJECTION,
-                new int[] {R.id.text1, R.id.text2}, 0);
+                new int[] {R.id.text1, R.id.text2});
         setListAdapter(adapter);
     }
 

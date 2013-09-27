@@ -2,6 +2,7 @@ package com.franktom.horizon;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -13,6 +14,7 @@ import android.text.format.Time;
 import android.util.DisplayMetrics;
 import android.util.FloatMath;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 import java.util.ArrayList;
@@ -62,6 +64,10 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
     static double mMaxElevation = 2000.0;
     static double mAverageVAngle = 0.0;
 
+    float pxBtn;
+    float pxObj;
+    float pxLoc;
+    
     static final float mDistanceLimit0 = (float)15000.0;
     static final float mDistanceLimit1 = (float)10000.0;
     static final float mElevationLimit1 = (float)0.0;
@@ -70,7 +76,7 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
     static final float mDistanceLimit3 = (float)40000.0;
     static final float mElevationLimit3 = (float)1000.0;
     static final float mHideOverlappingLimit = (float)2.0;
-    static final boolean mDrawHelperLines = true;
+    static final boolean mDrawHelperLines = false;
 
     boolean mFrozen = false;
 
@@ -219,8 +225,7 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
         mPaintButtonLabel = new Paint();
         mPaintButtonLabel.setColor(Color.WHITE);
         mPaintButtonLabel.setTextAlign(Align.CENTER);
-        mPaintButtonLabel.setTextSize(30);
-
+        
 
         mPaintScale = new Paint();
         mPaintScale.setColor(Color.YELLOW);
@@ -241,8 +246,8 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
 
         mPaintObjects = new Paint();
         mPaintObjects.setColor(Color.WHITE);
-        mPaintObjects.setTextSize(12);//20xperia
         mPaintObjects.setTextAlign(Align.LEFT);
+        mPaintObjects.setAntiAlias(true);
 
         mPaintObjectsLines = new Paint();
         mPaintObjectsLines.setColor(Color.GREEN); //WHITE
@@ -250,7 +255,6 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
 
         mPaintLocationData = new Paint();
         mPaintLocationData.setColor(Color.GREEN);
-        mPaintLocationData.setTextSize(15);
         mPaintLocationData.setTextAlign(Align.CENTER);
 
 
@@ -551,7 +555,7 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
                         mCurrentLocation.getLongitude(),
                         mCurrentLocation.getAltitude(),
                         mMinElevation, mMinDistance, mMaxDistance, mItemsToShow.size()),
-                        xc, mYOrigin/100*2, mPaintLocationData);
+                        xc, pxObj, mPaintLocationData);
 
         //draw horizon line (with taking average V angle into account)
         double middleOfTheDisplay = mYOrigin - mYOrigin/100*(100-HEADER_HEIGHT)/2.0;
@@ -643,9 +647,9 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
                 canvas.save();
                 canvas.rotate((float)270, objectXPos, mYOrigin/100*HEADER_HEIGHT-msInPixels);
                 canvas.drawText(item.name,
-                        objectXPos+3, mYOrigin/100*HEADER_HEIGHT-msInPixels*1.15f, mPaintObjects);
+                        objectXPos+3, mYOrigin/100*HEADER_HEIGHT-msInPixels*1.05f, mPaintObjects);
                 canvas.drawText(String.format("%1.0fkm/%1.0fm",item.distance/1000, item.elevation),
-                        objectXPos+3, mYOrigin/100*HEADER_HEIGHT+msInPixels*0.22f, mPaintObjects);
+                        objectXPos+3, mYOrigin/100*HEADER_HEIGHT-msInPixels*1.05f+pxObj, mPaintObjects);
                 canvas.restore();
             }
         }
@@ -701,9 +705,15 @@ class CompassView extends View implements Compass.CompassListener, View.OnClickL
         mYOrigin = h;
         msInPixels = mXOrigin/100*MARKER_SIZE;
 
-        mPaintButtonLabel.setTextSize(mXOrigin/100*2.5f); //30
-        mPaintObjects.setTextSize(mXOrigin/100*2.2f);//20
-        mPaintLocationData.setTextSize(mXOrigin/100*1.6f);//15
+        Resources r = getResources();
+        pxBtn = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 25, r.getDisplayMetrics());
+        pxObj = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 14, r.getDisplayMetrics());
+        pxLoc = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10, r.getDisplayMetrics());
+        
+        mPaintButtonLabel.setTextSize(pxBtn);
+        mPaintObjects.setTextSize(pxObj);
+        mPaintLocationData.setTextSize(pxLoc);
+        mPaintScale.setTextSize(pxLoc);
     }
 
     @Override

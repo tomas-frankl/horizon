@@ -1,4 +1,3 @@
-
 package com.franktom.horizon;
 
 import android.net.Uri;
@@ -12,6 +11,7 @@ import android.database.Cursor;
 import android.text.Editable;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MenuItem.OnMenuItemClickListener;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ListAdapter;
@@ -63,6 +63,9 @@ public class ObjectListActivity extends ListActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+    	//MenuItem mi = menu.add("Filter");
+    	//mi.setOnMenuItemClickListener(this);
+    	
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.activity_object_list, menu);
         return true;
@@ -138,4 +141,14 @@ public class ObjectListActivity extends ListActivity {
         alertDialog.show();*/
         return true;
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.itemObjectListFilter:
+    			return onFilterEnabled(item);
+        }
+		return false;
+	}
 }
